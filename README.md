@@ -11,3 +11,9 @@ The strategy to use ggplot and Rstudio provides the Oakland Athletics with insig
 My solution to solve this problem will be the development of a data science project. This project will utilize a variety of databases, and analyzed using ggplot and R Studio.
 
 #### Step 01.Data Description: 
+In this first section the data will be aggregated and studied.  Data will be used from Sean Lahaman's website, a very useful source for baseball statistics.  The data can be found in tags. Each player is assigned a unique number (playerID).  All of the information relating to that player is tagged with his playerID.  The playerIDs are linked to names and birthdates in the MASTER table.  Along with the master table the database is comprised of the following main tables: batting statistics, pitching, fielding statistics.
+
+#### Step 02. Feature Engineering:
+To determmine the value of the player we look at several statistics.  The batting average, on base percentage, and slugging percentage that will be calculated in order to improe the model and exploratory data analysis.
+
+#### Step 03. Data Filtering:
