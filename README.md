@@ -14,6 +14,15 @@ My solution to solve this problem will be the development of a data science proj
 In this first section the data will be aggregated and studied.  Data will be used from Sean Lahaman's website, a very useful source for baseball statistics.  The data can be found in tags. Each player is assigned a unique number (playerID).  All of the information relating to that player is tagged with his playerID.  The playerIDs are linked to names and birthdates in the MASTER table.  Along with the master table the database is comprised of the following main tables: batting statistics, pitching, fielding statistics.
 
 #### Step 02. Feature Engineering:
-To determmine the value of the player we look at several statistics.  The batting average, on base percentage, and slugging percentage that will be calculated in order to improe the model and exploratory data analysis.
+To determmine the value of the player we look at several statistics.  The batting average, on base percentage, and slugging percentage that will be calculated in order to improve the model and exploratory data analysis.  Each will have its own unique column.  Not only do we have to know the best players, but the most undervalued players, meaning we will also need salary information.
 
 #### Step 03. Data Filtering:
+Using the summary function we can see that we have statistics about the playerIDs, yearIDs, stints, teamIDs, etc... Its important to note that the statistics date back to 1871, the excess data from needs to be trimmed in order to merge the salary and batting data.  Since we have players playing multiple years, we'll have repetitions of playerIDs for multiple years, meaning we want to merge on both players and years.
+
+#### Step 04. Data Preparation: 
+In the fourth section, the data will be prepared to be analyzed against the players being lost.  We'll need to isolate the statistics of the players we want to replace and only concern ourselves with the data from the previous year of player output.  
+
+#### Step 03. Data Analysis:
+The fifth step would be the find the replacement players for the three key players lost under three constraints: the total combined salary of the three players can not exceed 15 million dollars, the combined number of At Bats (AB) needs to be equal to or greater than the lost players, their mean on base percentage had to equal to or greater than the mean on base percentage of the lost players.
+
+
