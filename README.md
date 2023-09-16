@@ -33,5 +33,17 @@ On base percentage vs salary information. Initial Scatterplot.  From this graph 
 Arranging the remaining players by On Base Percentage, we can pick the three most undervalued players within a 15 million dollar limit.
 <img width="257" alt="Screenshot 2023-09-16 at 12 27 47 PM" src="https://github.com/pimicah/Moneyball/assets/144563378/149c709f-1b41-4df5-9876-f371226396bd">
 
+## 3.0 Business Results
+The results provide numerous combinations of undervalued players that fit within the 15 million dollar budget and can replace the offensive efficiency of Jason Giambi and Johnny Damon.  The Oakland Athletics can find different players that fit the needs of the current team.
 
+## 4.0 Conclusion
+Using R-Studio to aggregate, filter, and visualize data, major organization's like the Oakland Athletics are able to leverage/optimize their business for success
+
+## 5.0 Lessons Learned
+• The importance of data
+• How to use R-studio and its features/plug ins
+
+## 6.0 Next Steps
+• Implementing new features through feature engineering
+• Selecting new variables and imporove the class through business
 
