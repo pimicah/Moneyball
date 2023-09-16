@@ -40,8 +40,8 @@ The results provide numerous combinations of undervalued players that fit within
 Using R-Studio to aggregate, filter, and visualize data, major organization's like the Oakland Athletics are able to leverage/optimize their business for success
 
 ## 5.0 Lessons Learned
-• The importance of data
-• How to use R-studio and its features/plug ins
+- The importance of data
+- How to use R-studio and its features/plug ins
 
 ## 6.0 Next Steps
 • Implementing new features through feature engineering
