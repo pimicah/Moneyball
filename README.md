@@ -26,7 +26,12 @@ In the fourth section, the data will be prepared to be analyzed against the play
 The fifth step would be the find the replacement players for the three key players lost under three constraints: the total combined salary of the three players can not exceed 15 million dollars, the combined number of At Bats (AB) needs to be equal to or greater than the lost players, their mean on base percentage had to equal to or greater than the mean on base percentage of the lost players.
 
 #### Step 06. Model Deployment:
+On base percentage vs salary information. Initial Scatterplot.  From this graph we can immediately rule out the significant amount of people with 1.00, 0.00, and even at .50.  Most likely this would be the pitchers, pinch hitters, or rookies that have only had a one or two at bats.  Furthermore, we are able to visualize extra parameters that we might want to implement such as at bat limit, players worth more than 10 million, average on base percentages over 350, etc...  This will signficantly narrow down the amount of players we can choose from.
 <img width="882" alt="Screenshot 2023-09-16 at 12 12 47 PM" src="https://github.com/pimicah/Moneyball/assets/144563378/414dc456-49af-4c0b-b989-49354a2cbfc1">
+
+#### Step 07. Conclusion:
+Arranging the remaining players by On Base Percentage, we can pick the three most undervalued players within a 15 million dollar limit.
+<img width="257" alt="Screenshot 2023-09-16 at 12 27 47 PM" src="https://github.com/pimicah/Moneyball/assets/144563378/149c709f-1b41-4df5-9876-f371226396bd">
 
 
 
