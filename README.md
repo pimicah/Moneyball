@@ -44,6 +44,6 @@ Using R-Studio to aggregate, filter, and visualize data, major organization's li
 - How to use R-studio and its features/plug ins
 
 ## 6.0 Next Steps
-• Implementing new features through feature engineering
-• Selecting new variables and imporove the class through business
+- Implementing new features through feature engineering
+- Selecting new variables and imporove the class through business
 
