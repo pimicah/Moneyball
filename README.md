@@ -22,7 +22,11 @@ Using the summary function we can see that we have statistics about the playerID
 #### Step 04. Data Preparation: 
 In the fourth section, the data will be prepared to be analyzed against the players being lost.  We'll need to isolate the statistics of the players we want to replace and only concern ourselves with the data from the previous year of player output.  
 
-#### Step 03. Data Analysis:
+#### Step 05. Data Analysis:
 The fifth step would be the find the replacement players for the three key players lost under three constraints: the total combined salary of the three players can not exceed 15 million dollars, the combined number of At Bats (AB) needs to be equal to or greater than the lost players, their mean on base percentage had to equal to or greater than the mean on base percentage of the lost players.
+
+#### Step 06. Model Deployment:
+<img width="882" alt="Screenshot 2023-09-16 at 12 12 47 PM" src="https://github.com/pimicah/Moneyball/assets/144563378/414dc456-49af-4c0b-b989-49354a2cbfc1">
+
 
 
