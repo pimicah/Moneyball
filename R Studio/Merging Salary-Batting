@@ -1,1 +1,13 @@
+1. Load salaries file into a dataframe 
+2. Retrieve summary of batting data
+3. Aggregate batting data and remove data before 1985
+4. Check that all data is after 1985
+5. Merge the batting and salary data frames
+6. Check data
 
+sal <- read.csv('Salaries.csv')
+summary(batting)
+batting <- subset(batting,yearID >= 1985)
+summary(batting)
+combo <- merge(batting,sal,by=c('playerID','yearID'))
+summary(combo)
