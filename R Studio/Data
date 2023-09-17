@@ -1,3 +1,9 @@
+1. Open the Batting.CSV file and assign it to a data frame
+2. Use head to open batting table
+3. Use str to check the structure
+4. Head again to get first five rows of at bats
+5. Call head of the 2B to see doubles
+
 batting <- read.csv('Batting.csv')  
 head(batting) 
 str(batting)
