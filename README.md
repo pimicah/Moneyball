@@ -37,7 +37,7 @@ Arranging the remaining players by On Base Percentage, we can pick the three mos
 The results provide numerous combinations of undervalued players that fit within the 15 million dollar budget and can replace the offensive efficiency of Jason Giambi and Johnny Damon.  The Oakland Athletics can find different players that fit the needs of the current team.
 
 ## 4.0 Conclusion
-Using R-Studio to aggregate, filter, and visualize data, major organization's like the Oakland Athletics are able to leverage/optimize their business for success
+R-Studio can be leveraged to aggregate, filter, and visualize data for major organization's like the Oakland Athletics to optimize their business for success
 
 ## 5.0 Lessons Learned
 - The importance of data
