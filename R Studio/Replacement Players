@@ -1,1 +1,21 @@
+1. Collect the combination data frame consisting of the three lost players
+2. Wrangle the data only from 2001
+3. Filter the data into only having the playerID, doubles, triples, homerums, on base percentage, slugging, batting average, and at bats columns
+4. Find all avaliable players from 2001
+5. Make a scatter plot
+6. Get rid of all players with a salary greater than 10 million, at bats less than 1500, and sort by on base percentage.
+7. Sort columns
 
+lost_players <- subset(combo,playerID %in% c('giambja01','damonjo01','saenzol01') )
+lost_players
+lost_players <- subset(lost_players,yearID == 2001)
+lost_players <- lost_players[,c('playerID','H','X2B','X3B','HR','OBP','SLG','BA','AB')]
+library(dplyr)
+avail.players <- filter(combo,yearID==2001)
+library(ggplot2)
+ggplot(avail.players,aes(x=OBP,y=salary)) + geom_point()
+avail.players <- filter(avail.players,salary<10000000,OBP>0)
+avail.players <- filter(avail.players,AB >= 500)
+possible <- head(arrange(avail.players,desc(OBP)),10)
+possible <- possible[,c('playerID','OBP','AB','salary')]
+possible
