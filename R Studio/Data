@@ -1,1 +1,5 @@
-
+batting <- read.csv('Batting.csv') >Open Batting.CSV
+head(batting) 
+str(batting)
+head(batting$AB)
+head(batting$X2B) 
