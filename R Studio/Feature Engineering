@@ -1,1 +1,9 @@
+1. Using prior baseball knowledge I know that batting averages are the amount of Hits divided by the amount of At Bats.  Calculated
+2. Double check the operation.  Check the last five entries
+3. Add On Base percentage, Slugging, and singles column.  Calculate
+4. Double check structure
 
+batting$BA <- batting$H / batting$AB
+tail(batting$BA,5)
+# On Base Percentage
+batting$OBP <- (batting$H + batting$BB + batting$HBP)/(batting$AB + batting$BB + batting$HBP + batting$SF)
