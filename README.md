@@ -45,5 +45,5 @@ R-Studio can be leveraged to aggregate, filter, and visualize data for major org
 
 ## 6.0 Next Steps
 - Implementing new features through feature engineering
-- Selecting new variables and imporove the class through business
+- Selecting new variables and improve the class through business
 
